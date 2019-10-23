@@ -1,0 +1,17 @@
+import javax.swing.*;
+public class ShoppingList
+{
+   String dress[]={"top","tshirts","skirts","jeans"};
+   String accessories[]={"necklace","earings","rings","hairband"};
+   public void display()
+{
+   JOptionPane.showMessageDialog(null,"Welcome to our shopping mall");
+   int i=integer.parseint(JOptionPane.showInputDialog(null,select your item +"\n"+"1.Dress"+"\n"+"2.Accessories"));
+   if(i==1)
+   String item=JOptionPane.showInputDialog(null,"select your item\n 1."+dress[0]+"\n 2."+dress[1]+"\n 3."+dress[2]+"\n 4."+dress[3]);
+   else if(i==2)
+   String item=JOptionPane.showInputDialog(null."select your item\n 1."+accessories[0]+"\n 2."+accessories[1]+"\n 3."+accessories[2]+"\n 4."+accessories[3]);
+     
+   JOptionPane.showMessageDialog(null,"you have selected this item="+item);
+}
+}
