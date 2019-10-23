@@ -1,0 +1,23 @@
+import javax.swing.*;
+public class Parking
+{
+public static void main(String[] args)
+   {
+int select;
+do
+  {
+      int vehicleno,vehicleType,vehicleHours;
+	vehicleno=Integer.parseInt(JOptionPane.showInputDialog(null,"enter the vehicle number"));
+	vehicleType=Integer.parseInt(JOptionPane.showInputDialog(null,"enter the vehicle type"));
+	vehicleHours=Integer.parseInt(JOptionPane.showInputDialog(null,"enter the vehicle hours"));
+	BillProcessing b=new BillProcessing(vehicleno,vehicleType,vehicleHours);
+	if(vehicleType==2)
+		b.twoWheelers();
+	else if(vehicleType==4)
+		b.fourWheelers();
+
+select=JOptionPane.showConfirmDialog(null,"do you want to enter more customer details");
+   }while(select==0);
+
+    }
+}
