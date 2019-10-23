@@ -1,0 +1,27 @@
+import javax.swing.*;
+public class BillProcessing
+{
+private int vehicleno,vehicleType,vehicleHours,payment;
+public BillProcessing(int no,int t,int h)
+{
+vehicleno=no;
+vehicleType=t;
+vehicleHours=h;
+}
+ public void twoWheelers()
+{
+  if(vehicleHours<=5)
+   payment=vehicleHours*10;
+  else
+    payment=100;
+	JOptionPane.showMessageDialog(null,"the gtotal charges "+payment);
+}
+ public void fourWheelers()
+{
+  if(vehicleHours<=5)
+   payment=vehicleHours*20;
+  else
+    payment=200;
+	JOptionPane.showMessageDialog(null,"the total charges "+payment);
+}
+}
