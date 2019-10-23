@@ -1,0 +1,21 @@
+import java.swing.*;
+public class Marks
+{
+public static void main(string args[])
+{
+      int marks;
+    String smarks =JOptionPane.showInputDialog (null,”enter the student marks”);
+  Marks=Integer.parseInt (smarks);
+If(marks==100)
+  JOptionpane.showMessage (null,”excellent”);
+Else if(marks>=90&&marks<100)
+  JOptionpane.showMessage (null,”good”);
+Else if(marks>=80&&marks<90)
+ JOptionpane.showMessage (null,”above average”);
+Else if(marks>=70&&marks<80)
+  JOptionpane.showMessage (null,”average”);
+Else if(marks>=60&&marks<70)
+  JOptionpane.showMessage (null,”below average”);
+Else if(marks>=50&&marks<60)
+}
+}
