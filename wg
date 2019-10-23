@@ -1,0 +1,12 @@
+import javax.swing.*;
+Public class Employee{
+Public static void main(string args[])
+{
+           
+   {
+      System.Out.println(count+"Employee joined");
+
+  }
+
+}
+}
