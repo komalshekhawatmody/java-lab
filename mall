@@ -1,0 +1,9 @@
+import javax.swing.*;
+public class Mall
+{
+    public static void main(String args[])
+    {
+       ShoppingList s=new ShoppingList();
+       s.display();
+}
+}
